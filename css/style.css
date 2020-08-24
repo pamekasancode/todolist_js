@@ -1,0 +1,42 @@
+body {
+  background-color: #fff;
+}
+
+body.active {
+  background-color: #20232A;
+  color: #fff;
+}
+
+body.active .list-group-item {
+  background-color: transparent !important;
+  border-color: #fff;
+}
+
+.header {
+  text-align: center; 
+  padding: 20px;
+}
+
+.list-group {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  border-radius: 0 !important;
+  margin-bottom: 5px;
+}
+
+.list-group-item i {
+  color: #fff;
+}
+
+.fab {
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+  width: 50px;
+  height: 50px;
+  border-radius: 360px;
+  border: none;
+  z-index: 9999;
+}
